@@ -4657,3 +4657,104 @@ h2 {
 	margin-right: 5px;
   }
   
+
+
+  .affordable-car {
+    padding: 50px 0 60px;
+    position: relative;
+}
+
+.car-prize::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 0px;
+    height: 2px;
+    background-color: rgb(1, 87, 192);
+
+}
+
+.car-prize:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.affordable{
+    font-size: 28px;
+    position: relative;
+    text-transform: capitalize;
+    z-index: 1;
+    color: rgb(81, 87, 93);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.affordable .car-heading {
+    color: rgb(1, 87, 192);
+
+}
+
+a.car-prize {
+    text-align: center;
+    margin-top: 20px;
+    z-index: 1;
+    text-decoration: none;
+    display: block;
+    color: rgb(81, 87, 93);
+    position: relative;
+    color: white;
+    position: relative;
+    transition: transform 2s;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+a.car-prize span {
+    color: rgb(1, 87, 192);
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    padding: 13px;
+    border-radius: 10px;
+}
+.car-prize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    background-color: #f9f9f9;
+}
+.car-prize:hover {
+    background-color: #e0f7fa; /* Subtle hover effect */
+}
+
+.img-fluid {
+    margin-bottom: 8px; /* Space between image and text */
+}
+
+.car-prize:hover {
+    z-index: 1;
+    filter: drop-shadow(30px 20px 30px 20px #3d3b3b);
+    border-radius: 10px;
+}
+.car-prize:hover img{
+    transform: translate(0) scale(1.1);
+transition: all 0.5s;
+}
+
+/* .car-insurance{
+	border: 1px solid black;
+	margin: 0px;
+	max-width: 100%;
+	display: flex;
+   
+} */
